@@ -19,10 +19,9 @@ All the included functions are designed to help with common animation tasks whic
 
 ## Installation
 
-1. Import the CreativeExpressionLibrary.jsx into After Effects as footage.
-2. Drag the .jsx footage into the Composition where the expression library will be used. This will ensure
-that the .jsx file is included when the project assets are collected, as in the case of Collect Files, 
-sending Compositions to AME, or packaging Motion Graphic Templates.
+1. Download the latest release of [CreativeExpressionLibrary-v2.1.jsx](https://github.com/jthomascolombo/creative-expression-library/releases/download/v2.1.0/CreativeExpressionLibrary-v2.1.jsx)
+2. Import the reativeExpressionLibrary-v2.1.jsx into After Effects as footage.
+3. Drag the .jsx footage into the Composition where the expression library will be used. This will ensure that the .jsx file is included when the project assets are collected, as in the case of Collect Files, sending Compositions to AME, or packaging Motion Graphic Templates.
 
 ## Usage
 
@@ -40,7 +39,7 @@ createLib.flipHorizontal();
 
 ## Help
 
-This expression library and the functions within are "self documenting" in that they can throw a helpful error describing their own usage.
+This expression library and the functions within are "self-documenting" in that they can throw a helpful error describing their own usage.
 
 To see a list of all functions contained within the library, use the `createLib.getInfo()` function without any arguments.
 
